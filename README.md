@@ -1,4 +1,4 @@
-#Task Manager Web application (Full Stack)
+# Task Manager Web application (Full Stack)
 
 A simple full stack task management app built with 
 
@@ -7,24 +7,26 @@ A simple full stack task management app built with
 - SQLite 
 - Docker
 
-##Current Features
+## Current Features
 
 - Create tasks
 - View all your tasks
 - View details for each of your tasks
 
-##Running Locally 
+## Running Locally 
 
-###Backend 
+### Backend 
 cd backend
 uvicorn main:app --reload
 
-###Frontend
+### Frontend
+```
 cd frontend
 npm install
 npm run dev
+```
 
-##Running with Docker
+## Running with Docker
 In /task-manager: 
 docker compose up --build
 
