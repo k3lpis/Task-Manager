@@ -1,0 +1,6 @@
+#Packages and versions needed
+
+fastapi
+uvicorn
+sqlalchemy
+pydantic
