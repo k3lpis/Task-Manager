@@ -16,11 +16,12 @@ A simple full stack task management app built with
 ## Running Locally 
 
 ### Backend 
+```
 cd backend
 uvicorn main:app --reload
+```
 
 ### Frontend
-```
 cd frontend
 npm install
 npm run dev
@@ -28,7 +29,9 @@ npm run dev
 
 ## Running with Docker
 In /task-manager: 
+```
 docker compose up --build
+```
 
 Frontend:
 http://localhost:5173
