@@ -9,8 +9,4 @@ COPY . .
 
 EXPOSE 5173
 
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]FROM ubuntu:latest
-LABEL authors="john"
-
-ENTRYPOINT ["top", "-b"]
-
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
